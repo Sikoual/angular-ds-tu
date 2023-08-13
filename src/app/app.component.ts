@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-ds-tu';
+
+  public addTwoNumbers(one: number, two: number){
+    return one + two;
+  }
 }
